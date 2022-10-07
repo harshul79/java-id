@@ -33,6 +33,7 @@ class A
         else
         {
             System.out.println("please share correct info");
+            System.out.println("thanks to share your give valuable time");
         }
        
     }
