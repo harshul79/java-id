@@ -1,0 +1,40 @@
+import java.util.*;
+class A
+{
+    public static void main(String[] args)
+    {
+        int b,c,d,e; String a;
+     System.out.println("WELCOME TO WIPRO COMPANY");
+        System.out.println("enter your details");
+        
+         System.out.println("enter your name");
+        Scanner h=new Scanner(System.in);
+        a=h.next();
+        System.out.println("enter your PREVIOUS salary");
+        b=h.nextInt();
+        System.out.println("enter your id no");
+        c=h.nextInt();
+        System.out.println("enter your COMPANY PASSWRD no");
+        d=h.nextInt();
+        if(d==1311)
+        {
+            System.out.println("correct pWD");
+            System.out.println("HELLO HARSHUL THANKS TO SHARE YOUR DETAILS BELOW YOU SEE YOUR COMPANY DETAILS");
+            
+            System.out.println("name:- "+a);
+        System.out.println(" CURRENT salary:- 70000");
+        System.out.println(":- WIPRO ID 767656564");
+             System.out.print("your information is correct give some time FOR NEXT PROCESS");
+              System.out.println(" CAN YOU GIVE YOUR MOBILE NO");
+              e=h.nextInt();
+              System.out.print("thanks to give your number");
+              
+        }
+        else
+        {
+            System.out.println("please share correct info");
+        }
+       
+    }
+    
+}
